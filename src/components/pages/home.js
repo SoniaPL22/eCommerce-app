@@ -9,7 +9,7 @@ export default class Inicio extends Component {
             <div>
                 
                 <div className='home-page-wrapper'>
-                    <h1 className='home-page-title'>Bienvenidos a la <span className='name-shop'>Fabrica Fofuchera</span></h1>
+                    <h1 className='home-page-title'>Bienvenidos a la <span className='name-shop'>Fábrica Fofuchera</span></h1>
                     <h2 className='home-page-description'>Aqui encontrarás fofuchas, amigurumis y muchas manualidades más</h2>
                     <div className='offers-wrapper'>
                         <div className='two-offers-wrapper'>
