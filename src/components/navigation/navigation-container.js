@@ -47,6 +47,9 @@ const NavigationContainer = props => {
                     <div className='nav-link-wrapper'>
                         <NavLink to="/más" activeClassName="nav-link-active">Más manualidades</NavLink>
                     </div>
+                    <div className='nav-link-wrapper'>
+                        <NavLink to="/contacto" activeClassName="nav-link-active">Contacto</NavLink>
+                    </div>
                     <div className='menu-button'><NavMenu /></div>
                 </div>
                 
