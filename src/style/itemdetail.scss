@@ -1,0 +1,23 @@
+.shop-item-detail-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.shop-item-details-wrapper {
+    width: 445px;
+}
+
+.item-detail-img {
+    width: 300px;
+}
+
+
+.item-detail-comment a {
+    color: $purple;
+}
+
+.item-detail-comment a:hover {
+    color: $lightpurple;
+}

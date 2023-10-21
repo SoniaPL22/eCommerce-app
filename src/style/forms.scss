@@ -1,0 +1,36 @@
+input, textarea, .select-element {
+    background-color: $lightlilac;
+    color: $darkpurple;
+    border: 1px solid transparent;
+    border-radius: 2%;
+    height: 30px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 7px 7px 8px -4px $livepurple;
+}
+
+input::placeholder, textarea::placeholder, .select-element::placeholder {
+    color: $graylilac;
+    font-family: sans-serif;
+}
+
+.select-element {
+    height: 33px;
+    width: 306px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus-visible, textarea:focus-visible, .select-element:focus-visible {
+    outline: none;
+    border: 1px solid $purple;
+    border-radius: 4%;
+}
+
+.form-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

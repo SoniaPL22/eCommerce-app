@@ -1,0 +1,40 @@
+.nav-menu-wrapper {
+    background-color: $lilac;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-menu-wrapper > ul {
+    list-style: none;
+    display: none;
+}
+
+.nav-menu-list-items {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.nav-menu-list-items a {
+    text-decoration: none;
+    color: $purple;
+}
+
+.nav-menu-list-item {
+    width: 120px;
+}
+
+.nav-menu-icon {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.nav-menu-bar {
+    height: 0.4rem;
+    width: 100%;
+    background-color: $purple;
+    border-radius: 0.2rem;
+}

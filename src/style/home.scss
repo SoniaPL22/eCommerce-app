@@ -1,0 +1,54 @@
+.home-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name-shop {
+    font-size: 1.2em;
+    color: $lightpurple;
+}
+
+.offers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 240px;
+}
+
+.two-offers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 840px;
+}
+
+.offer {
+    width: 400px;
+    height: 100px;
+    border: 2px solid $purple;
+    border-radius: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $lightlilac;
+    box-shadow: 10px 10px 20px -4px $purple;
+}
+
+.offer-text {
+    margin: 5px;
+}
+
+.offer-detail {
+    font-size: 1.3em;
+    color: $lightpurple;
+}
+
+
+
+.home-page-contact-link a:hover {
+    color:$lightpurple;
+}

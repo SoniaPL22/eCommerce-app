@@ -1,0 +1,37 @@
+.amedida-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.amedida-elements-wrapper {
+    width: 900px;
+}
+
+.images-amedida-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-amedida-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-amedida{
+    height: 300px;
+}
+
+
+.button-link-amedida {
+    text-decoration: none;
+    color: $darkpurple;
+}
+
+.text-amedida {
+    color: $lightpurple;
+}

@@ -1,28 +1,17 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
-}
-
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
-}
-
-body {
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
+@import "./colors.scss";
+@import "./base.scss";
+@import "./navigation.scss";
+@import "./shopitems.scss";
+@import "./buttons.scss";
+@import "./header.scss";
+@import "./auth.scss";
+@import "./downbar.scss";
+@import "./itemdetail.scss";
+@import "./home.scss";
+@import "./contact.scss";
+@import "./forms.scss";
+@import "./amedida.scss";
+@import "./edition.scss";
+@import "./nomatch.scss";
+@import "./mediaqueries.scss";
+@import "./menu.scss";

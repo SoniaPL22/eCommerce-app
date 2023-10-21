@@ -1,0 +1,48 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    background-color: white;
+}
+
+.header-logo {
+    height: 120px;
+}
+
+
+.left-header-wrapper, .right-header-wrapper {
+    height: 100px;
+    width: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.left-header-wrapper > a {
+    text-decoration: none;
+    color: $purple;
+}
+
+.left-header-wrapper > a:hover {
+    text-decoration: underline;
+    color: $lightpurple;
+}
+
+.right-header-wrapper {
+    align-items: flex-end;
+}
+
+.whatsapp-wrapper, .phone-wrapper {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-envelope-wrapper {
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,78 @@
+.btn {
+    background-color: $lightlilac;
+    color: $darkpurple;
+    border: 1px solid $purple;
+    height: 20px;
+    text-align: center;
+    box-shadow: inset -10px -10px 10px -9px rgba(101,8,163,1);
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.btn.page-amedida {
+    height: 40px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.btn:active {
+    filter: brightness(92%);
+    box-shadow: inset -10px -10px 10px -9px $lilac;
+}
+
+.facebook, .instagram, .whatsapp, .email-envelope, .phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+}
+
+.facebook, .instagram, .whatsapp, .email-envelope, .phone:hover {
+    cursor: pointer;
+}
+
+.facebook {
+    background: #4267B2;
+}
+
+.facebook:hover{
+    background: #022b7b;
+}
+
+.instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.instagram:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #b07104, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #9a6304, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #050c84, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #01099e, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #47027c, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #4a0280, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #930341, transparent), linear-gradient(#0e0279, #88015e 30%, #82021b 50%, #8e3004 70%, #955e05 100%);
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.whatsapp:hover {
+    background: #026b29;
+}
+
+.email-envelope {
+    background: red;
+}
+
+.email-envelope:hover {
+    background: rgb(172, 6, 6);
+}
+
+.phone {
+    background: lightblue;
+}
+
+.phone:hover {
+    background: rgb(4, 117, 154);
+}

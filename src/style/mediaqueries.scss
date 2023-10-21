@@ -1,0 +1,143 @@
+@media only screen and (min-device-width:320px) and (max-device-width:736px)  {
+
+    
+    .header-wrapper, .header-logo, .nav-wrapper, .home-page-wrapper, .offers-wrapper, .offer-text, .name-shop, .two-offers-wrapper, .offer, .home-page-description, .home-page-contact-link, .bar-down-wrapper, .amedida-elements-wrapper, .shop-item-detail-wrapper, .item-detail-img, .shop-item-details-wrapper, .shop-items-container, .shop-items-comment, .left-bar-down-links,  .right-bar-down-wrapper, .left-bar-down-wrapper, .center-bar-down-wrapper   {
+        width: 100%;
+    }
+    
+
+    .header-wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 300px;
+    }
+
+    .center-header-wrapper{
+        order: 1;
+    }
+
+    .left-header-wrapper {
+        order: 2;
+    }
+
+    .right-header-wrapper {
+        order: 3;
+    }
+
+    .left-header-wrapper, .right-header-wrapper {
+        align-items: center;
+    }
+
+    .nav-wrapper {
+        height: 100px;
+    }
+
+    .nav-link-wrapper {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .menu-button {
+        visibility: visible;
+    }
+
+    .nav-menu-icon {
+       display: flex;
+    }
+
+    .nav-menu-wrapper {
+        height: 100px;
+    }
+
+    .nav-menu-wrapper > ul.open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sign-out-icon {
+        font-size: 2em;
+        color: $purple;
+        margin-right: 20px;
+    }
+
+    .home-page-title, .home-page-description, .home-page-contact-link {
+        text-align: center;
+    }
+
+    .two-offers-wrapper {
+        flex-direction: column;
+    }
+
+    .bar-down-wrapper {
+        flex-direction: column;
+        height: 520px;
+        text-align: center;
+    }
+
+    .right-bar-down-wrapper, .center-bar-down-wrapper {
+        text-align: center;
+    }
+
+    .left-bar-down-wrapper {
+        margin-left: 0px;
+    }
+
+    .left-bar-down-links {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .shop-items-comment {
+        text-align: center;
+    }
+   
+
+    .shop-items-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+
+    .shop-item-detail-wrapper {
+        flex-direction: column;
+    }
+
+    
+
+    .shop-item-details-wrapper {
+        text-align: center;
+        margin-top: -60px;
+    }
+
+
+    .auth-form-inputs-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .input-wrapper-two-columns {
+        flex-direction: column;
+    }
+
+    .shop-items-wrapper.edition {
+        grid-template-columns: 1fr;
+    }
+
+    .form-input-wrapper {
+        text-align: center;
+    }
+
+    .shop-container-fofuchas {
+        width: 100%;
+    }
+
+
+    
+
+
+}
