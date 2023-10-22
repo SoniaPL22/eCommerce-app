@@ -1,7 +1,7 @@
  import React, { Component } from 'react';
  import	imagepersonalized from "../../images/fofucha-personalizada.jpg";
  import	imageclassic from "../../images/fofucha-clasica.jpg";
- import logo from '../../logo/logoappshop.png';
+ 
 
  export default class AMedida extends Component {
      render() {
