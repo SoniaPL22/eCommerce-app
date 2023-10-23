@@ -5,6 +5,10 @@ body {
     background: linear-gradient(0.25turn, rgb(236, 193, 249), rgb(245, 233, 248), rgb(236, 193, 249));
 }
 
+a {
+    color: $purple;
+}
+
 .app {
     display: grid;
     grid-template-columns: 1fr;
