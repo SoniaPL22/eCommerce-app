@@ -26,7 +26,7 @@ export default class EditionForm extends Component {
 
 
     handleSend(event) {
-        fetch("http://localhost:5000/add", {
+        fetch("postgres://sykkxzzexkikkj:292ca72ab836a13ad842a9d6e6a42ea0ea246268f9cb2fe7280298930553ba2e@ec2-54-78-142-10.eu-west-1.compute.amazonaws.com:5432/dfcm1nfscbsj7f/add", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
