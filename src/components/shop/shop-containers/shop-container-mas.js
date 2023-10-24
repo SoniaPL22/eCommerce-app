@@ -25,7 +25,7 @@ export default class ShopContainerMas extends Component {
 
     getMas() {
         axios
-          .get("postgres://sykkxzzexkikkj:292ca72ab836a13ad842a9d6e6a42ea0ea246268f9cb2fe7280298930553ba2e@ec2-54-78-142-10.eu-west-1.compute.amazonaws.com:5432/dfcm1nfscbsj7f/category?category=otros")
+          .get("https://fabrica-fofuchera-backend-eb1ae5c75b76.herokuapp.com/category?category=otros")
           .then(response => {
             console.log("response data", response);
             this.setState({
