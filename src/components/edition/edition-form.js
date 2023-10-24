@@ -73,6 +73,7 @@ export default class EditionForm extends Component {
                                 placeholder="Nombre de la manualidad"
                                 value={this.state.title}
                                 onChange={this.handleChange}
+                                maxLength={15}
                             />
                         </div>
                         <div className='form-input-wrapper'>
