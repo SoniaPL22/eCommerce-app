@@ -24,7 +24,7 @@ function Header() {
         <img className="header-logo" src={logo} alt="Logo" />
     </div>
     <div className='right-header-wrapper'>
-        <a href="https://www.facebook.com/analemosvelosafofuchas/photos">
+        <a href="https://www.facebook.com/analemosvelosafofuchas">
             <button className='facebook'> <FontAwesomeIcon icon="fa-brands fa-facebook-f" style={{color: "white",}} /></button>
         </a>
         <a href="https://www.instagram.com/analemosvelosa/?hl=es">

@@ -24,7 +24,7 @@ export default class DownBar extends Component {
                             </a>
                         </div>
                         <div className='left-bar-down-link'>
-                            <a href="https://www.facebook.com/analemosvelosafofuchas/photos">
+                            <a href="https://www.facebook.com/analemosvelosafofuchas">
                                 <button className='facebook'> <FontAwesomeIcon icon="fa-brands fa-facebook-f" style={{color: "white",}} /></button>
                             </a>
                         </div>
